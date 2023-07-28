@@ -16,8 +16,8 @@ const Map = () => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: 'mapbox://styles/mapbox/streets-v11',
-      center: [-79.38, 43.65],
-      zoom: 12.5,
+      center: [77, 20],
+      zoom: 6,
     });
 
     // change cursor to pointer when user hovers over a clickable feature
